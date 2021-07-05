@@ -39,3 +39,32 @@ h1{
     background-repeat: no-repeat;
   background-position: right;
 }
+
+.experience-item{
+    width: 50%;
+    margin: 0 5%;
+    box-shadow: 10px 10px 20px 30px gray;
+}
+h2{
+    font-size: 40px;
+    border-radius: 15px;;
+}
+.experience-area{
+
+background-image: url(./images/exp-bg.png);
+background-repeat: no-repeat;
+background-position: left;
+}
+#web-developer-exp{
+    border-left: 7px solid;
+    border-image:linear-gradient(yellow, blue);
+    border-image-slice: 1;
+}
+#web-dev-exp{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue, green);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
